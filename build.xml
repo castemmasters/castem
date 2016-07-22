@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MediCuris" default="publishLocal" basedir=".">
+
+	<description>
+		Orinoco System Inc.
+	</description>
+
+	<condition property="isMac">
+		<os family="mac" />
+
+	</condition>
+
+
+	<!-- define the operating system specific targets -->
+	<target name="doMac" if="isMac">
+		<property name="doc.root" value="${user.home}/medicuris" />
+		<echo message="INFO:Mac OS property being set" />
+	</target>
+
+	<target name="doOthers" unless="isMac">
+		<property name="doc.root"
+			value="C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\" />
+		<echo message="INFO:Win OS property being set" />
+	</target>
+
+
+
+
+
+	<property name="application.name" value="MediCuris" />
+	<property name="WEB-INF" value="WEB-INF" />
+
+	<property name="publish.host" value="ftp.cmntylive.com" />
+
+	<property name="publish.user" value="lookupre" />
+	<property name="publish.dir" value="public_html" />
+	<property name="publish.pass" value="c92ppD53" />
+
+	<property name="local.dir" value="${doc.root}/${application.name}" />
+	<property name="webcontent.dir" value="public_html" />
+	<property name="dist.dir" location="dist" />
+
+	<property name="build.dir" location="build" />
+
+	<target name="init" depends="doMac, doOthers">
+		<!-- <fail unless="tomcat.root"> Computer says no. You have to set 'tomcat.root'! 
+			in Ant->Runtime->Properties </fail> -->
+
+
+
+
+		<fileset id="fileset.customfiles" dir="${basedir}/public_html">
+			<include name="**/*.*" />
+		</fileset>
+
+		<fileset id="fileset.dist" dir="${dist.dir}">
+			<include name="**/*.*" />
+		</fileset>
+
+		<fileset id="fileset.dist.content" dir="${dist.dir}/${application.name}">
+			<include name="**/*.*" />
+		</fileset>
+
+	</target>
+
+	<target name="createDist" depends="init">
+		<delete dir="${dist.dir}" />
+		<mkdir dir="${dist.dir}" />
+
+
+		<echo> "INFO:Copying custom files" </echo>
+		<copy todir="${dist.dir}/${application.name}">
+			<fileset refid="fileset.customfiles" />
+		</copy>
+
+		<echo> "INFO: Making ZIP file in directory
+			"${dist.dir}/${application.name}" </echo>
+		<mkdir dir="${build.dir}" />
+		<zip destfile="${build.dir}/${application.name}.zip" basedir="${dist.dir}"
+			update="true" />
+
+	</target>
+	<target name="publishLocal" depends="createDist">
+
+		<delete includeemptydirs="true" failonerror="false">
+			<fileset dir="${doc.root}" includes="**/*.*" />
+		</delete>
+
+		<echo> "INFO:Copying all files to "${doc.root} " </echo>
+		<mkdir dir="${doc.root}" />
+		<copy todir="${doc.root}" overwrite="true">
+			<fileset refid="fileset.dist.content" />
+		</copy>
+
+		<delete dir="${dist.dir}" />
+	</target>
+
+	<target name="publishRemote" depends="createDist">
+		<!-- <ftp action="rmdir" server="${publish.host}" userid="${publish.user}" 
+			password="${publish.pass}" remotedir="${publish.dir}"> <fileset> <include 
+			name="**/*.*" /> </fileset> </ftp> -->
+		<echo> "INFO:Transfering files to
+			${publish.host}/${publish.dir}"
+		</echo>
+		<ftp action="mkdir" server="${publish.host}" userid="${publish.user}"
+			password="${publish.pass}" remotedir="${publish.dir}">
+		</ftp>
+		<echo> "INFO:FTPing class files to "${publish.dir}/${WEB-INF}" </echo>
+		<ftp server="${publish.host}" port="21" remotedir="${publish.dir}"
+			userid="${publish.user}" password="${publish.pass}" verbose="yes"
+			binary="yes">
+			<!--fileset refid="fileset.dist" / -->
+			<fileset file="${build.dir}/${application.name}.zip" />
+		</ftp>
+
+		<delete dir="${dist.dir}" />
+	</target>
+
+
+	<target name="clean">
+		<delete dir="${dist.dir}" />
+		<echo> "INFO:Deleting Build Directory "${build.dir}" </echo>
+		<delete dir="${build.dir}" />
+	</target>
+
+
+
+</project>
