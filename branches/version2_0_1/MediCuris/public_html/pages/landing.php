@@ -5,8 +5,8 @@
   <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
     <div class="slider-content text-center">
-     <h2 class="slider-title">A <span>reversed </span>app</h2>
-     <h4 class="slider-title">that puts the doctor in charge</h4>
+     <h2 class="slider-title">Secure <span>mobile</span> polling</h2>
+     <h4 class="slider-title">For patient reported outcome surveys and other applications</h4>
      <!--
      <div class="btn-container">
      <button class="btn btn-default featured">
@@ -44,7 +44,7 @@
        <div class="about-content">
         <h4>Anonymized access</h4>
         <p>
-         The ultimate privacy is attained when the patient's name is never used in communication. Only the doctor sees the real identity of the patient.
+Ultimate privacy is attained when the patient's identity is never exchanged in any communication. Only the doctor sees the real identity of the patient.
         </p>
        </div>
       </div>
@@ -55,8 +55,7 @@
        <div class="about-content">
         <h4>Improved monitoring</h4>
         <p>
-         The app lets you answer questions, upload pictures. The doctor can review them on his own time from anywhere. More monitoring, less disruption.
-        </p>
+The patient can answer questions, upload pictures. Integrated IOT devices add physical measurements in the same secure and anonymised manner.        </p>
        </div>
       </div>
      </div>
@@ -76,8 +75,7 @@
        <div class="about-content">
         <h4>Nothing to install</h4>
         <p>
-         Perfect for the elderly and non tech-savvy patients. No Appstore account, no login, nothing to download. Just click on the link in the message.
-        </p>
+         No Appstore account needed, no login to remember, nothing to download. Millennials or otherwise, tech-savvy or not, all that is needed is a working smartphone. </p>
        </div>
       </div>
      </div>
@@ -87,8 +85,7 @@
        <div class="about-content">
         <h4>Reduced cost</h4>
         <p>
-         MediCuris can be deployed one doctor at a time, at a fraction of the cost compared to large scale corporate systems.
-        </p>
+Designed from the ground up for the unique requirements of healthcare monitoring and surveying. Incrementally deployable, with little IT infrastructure required.        </p>
        </div>
       </div>
      </div>
@@ -107,10 +104,10 @@
    <div class="col-md-12">
     <h2  class="text-center">A typical scenario</h2>
     <p  >
-     You just had surgery. Your doctor wants to monitor you closely. He prescribes an 'app' for you.
+     You just had surgery. Your doctor wants to monitor you closely.
      <ul>
       <li>
-       The doctor/nurse creates it and sends it to you. Ultimate privacy.
+       The doctor/nurse creates your profile and sends it to you. Choose a one-time pin for activation.
       </li>
       <li>
        You don't even have to login. Your credentials are never ever used in any communication.
@@ -119,7 +116,7 @@
        Communicate, answer polls/questionnaires, upload pictures, ask questions securely.
       </li>
       <li>
-       Integrated devices allow your doctor to monitor as frequently as he deems necessary.
+       Integrated IOT devices allow your doctor to monitor as frequently as he deems necessary.
       </li>
      </ul>
     </p>
@@ -214,5 +211,5 @@
 	$('.counter').counterUp({
 		delay : 100,
 		time : 2000
-	}); 
+	});
 </script>
