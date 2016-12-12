@@ -6,7 +6,7 @@
    <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
     <div class="slider-content text-center">
      <h2 class="slider-title">Secure <span>mobile</span> polling</h2>
-     <h4 class="slider-title">For patient reported outcome surveys and other applications</h4>
+     <h4 class="slider-title">for <br> patient reported outcome surveys<br> and other applications</h4>
      <!--
      <div class="btn-container">
      <button class="btn btn-default featured">
@@ -107,10 +107,10 @@ Designed from the ground up for the unique requirements of healthcare monitoring
      You just had surgery. Your doctor wants to monitor you closely.
      <ul>
       <li>
-       The doctor/nurse creates your profile and sends it to you. Choose a one-time pin for activation.
+       The doctor/nurse creates your profile and sends it to you. Choose a one-time PIN for activation.
       </li>
       <li>
-       You don't even have to login. Your credentials are never ever used in any communication.
+       You don't even have to login. Your credentials are never used in any communication.
       </li>
       <li>
        Communicate, answer polls/questionnaires, upload pictures, ask questions securely.
