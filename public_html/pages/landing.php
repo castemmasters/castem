@@ -29,7 +29,7 @@
 <section id="highlights" class="white_background">
  <div class="container">
   <div class="row">
-   <div class=" text-center">
+   <div class="heading-inner text-center">
     <h2 class="sec-title"> Our novel <span> approach </span></h2>
     <h4 class="sec-sub-title text-center"> The needs of <span> healthcare</span> are very different from typical consumer apps </h4>
    </div>
@@ -100,29 +100,30 @@ Designed from the ground up for the unique requirements of healthcare monitoring
 <section id="scenario"  class="white_background">
  <div  class="container ">
   <!-- FEATURETTE BEGIN  -->
-  <div class="row  ">
-   <div class="col-md-12">
-    <h2  class="text-center">A typical scenario</h2>
-    <p  >
-     You just had surgery. Your doctor wants to monitor you closely.
-     <ul>
-      <li>
-       The doctor/nurse creates your profile and sends it to you. Choose a one-time PIN for activation.
-      </li>
-      <li>
-       You don't even have to login. Your credentials are never used in any communication.
-      </li>
-      <li>
-       Communicate, answer polls/questionnaires, upload pictures, ask questions securely.
-      </li>
-      <li>
-       Integrated IOT devices allow your doctor to monitor as frequently as he deems necessary.
-      </li>
-     </ul>
-    </p>
-
+  <div class="row">
+   <div class="heading-inner text-center">
+    <h2 class="sec-title">A typical <span>scenario</span></h2>
+    <p>You just had surgery. Your doctor wants to monitor you closely.</p>       
    </div>
-   <div class="col-md-12 featurette-image-frame">
+      
+      <div class="col-md-4">
+         <ul class="scenario_list">
+          <li>
+           The doctor/nurse creates your profile and sends it to you. Choose a one-time PIN for activation.
+          </li>
+          <li>
+           You don't even have to login. Your credentials are never used in any communication.
+          </li>
+          <li>
+           Communicate, answer polls/questionnaires, upload pictures, ask questions securely.
+          </li>
+          <li>
+           Integrated IOT devices allow your doctor to monitor as frequently as he deems necessary.
+          </li>
+         </ul>
+      </div>
+
+   <div class="col-md-8 featurette-image-frame">
     <span class="featurette-image-helper"> <img src="images/projects/medicuris/curis_app.png"
      class="featurette-image img-responsive" alt="500x400"></span>
    </div>
