@@ -284,6 +284,10 @@ h5{
 	margin-bottom: 0px;
 }
 
+.on .navbar-brand .img-responsive{
+    width: 180px;
+}
+
 #tf-menu {
 	padding: 15px;
 	-webkit-transition: all 0.8s;
@@ -310,7 +314,7 @@ h5{
 }
 .on{
 	background-color: #28292E !important;
-	padding: 0px !important;
+	padding: 10px !important;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
@@ -322,7 +326,8 @@ h5{
 }
 
 .navbar-brand {
-   margin-top: -18px;
+   margin-top: -15px;
+   padding: 15px 0px;
 }
 .navbar-default .navbar-nav  a:hover{
 	color: #00AEFF!important;
@@ -331,6 +336,10 @@ h5{
     color: #00AEFF!important;
     background: transparent;
 }
+.navbar-toggle{
+    margin-right: 5px;
+}
+
 
 .navbar-toggle:hover{
 	background: #00AEFF!important;
@@ -661,6 +670,31 @@ h5{
 	top: 0px;
 	z-index: 999;
 }
+
+/*------------custom--------------*/
+
+.scenario_list{
+    padding-top: 40px;
+}
+.scenario_list li{
+    margin-bottom: 20px;
+}
+.featurette-image-frame{
+    padding-top: 20px;
+}
+.copyright{
+    padding-top: 20px;
+    text-align: right;
+}
+.footermenu{
+    padding-top: 20px;
+    text-align: center;
+}
+.footermenu li{
+    display: inline-block;
+    padding: 0 10px;
+}
+/*-------------end custom----------*/
 
 
 /*?BENEFit section
@@ -1257,4 +1291,19 @@ h5{
 #back-top a:hover{
     background: #00AEFF;
     opacity: 1;
+}
+
+@media (max-width:768px){
+    .img-responsive{
+        width: 190px;
+    }
+    .featurette-image.img-responsive{
+        width: auto;
+    }
+    .footerlogo{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
 }
