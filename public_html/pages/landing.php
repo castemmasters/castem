@@ -5,8 +5,8 @@
   <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
     <div class="slider-content text-center">
-     <h2 class="slider-title">Secure <span>mobile</span> polling</h2>
-     <h4 class="slider-title">for <br> patient reported outcome surveys<br> and other applications</h4>
+     <h2 class="slider-title">Virtual <span>House</span> Calls</h2>
+     <h4 class="slider-title">to <br> reduce cost and improve patient care</h4>
      <!--
      <div class="btn-container">
      <button class="btn btn-default featured">
@@ -103,9 +103,9 @@ Designed from the ground up for the unique requirements of healthcare monitoring
   <div class="row">
    <div class="heading-inner text-center">
     <h2 class="sec-title">A typical <span>scenario</span></h2>
-    <p>You just had surgery. Your doctor wants to monitor you closely.</p>       
+    <p>You just had surgery. Your doctor wants to monitor you closely.</p>
    </div>
-      
+
       <div class="col-md-4">
          <ul class="scenario_list">
           <li>
