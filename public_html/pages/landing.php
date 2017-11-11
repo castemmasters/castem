@@ -85,7 +85,7 @@ The patient can answer questions, upload pictures, chat. Integrated IOT devices 
        <div class="about-content">
         <h4>Reduced cost</h4>
         <p>
-Designed from the ground up for the unique requirements of healthcare monitoring and surveying. Incrementally deployable, with little IT infrastructure required.        </p>
+          Reduce unnecessary re-admissions by allowing patients to have follow up care via virtual house calls. Incrementally deployable, with little IT infrastructure required.        </p>
        </div>
       </div>
      </div>
