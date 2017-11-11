@@ -31,7 +31,7 @@
   <div class="row">
    <div class="heading-inner text-center">
     <h2 class="sec-title"> Our novel <span> approach </span></h2>
-    <h4 class="sec-sub-title text-center"> The needs of <span> healthcare</span> are very different from typical consumer apps </h4>
+    <h4 class="sec-sub-title text-center"> The communication needs of <span> healthcare</span> have many restrictions and specific requirements. </h4>
    </div>
   </div>
   <!-- heading row end -->
@@ -53,9 +53,9 @@ Ultimate privacy is attained when the patient's identity is never exchanged in a
       <div class="about-inner ">
        <img src="images/improved_monitoring.png"/>
        <div class="about-content">
-        <h4>Improved monitoring</h4>
+        <h4>Improved patient-care</h4>
         <p>
-The patient can answer questions, upload pictures. Integrated IOT devices add physical measurements in the same secure and anonymised manner.        </p>
+The patient can answer questions, upload pictures, chat. Integrated IOT devices add physical measurements in the same secure and anonymised manner.        </p>
        </div>
       </div>
      </div>
