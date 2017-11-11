@@ -41,7 +41,7 @@
             </div>
 			<div class="col-sm-5">
                 <div class="copyright">
-				    <a href="/">&#0169 &nbsp;2016. All rights reserved.&nbsp; | by Orinoco Inc.</a>
+				    <a href="/">&#0169 &nbsp;2018. All rights reserved.&nbsp; | medicuris.com</a>
                 </div>
 			</div>
 		</div>
