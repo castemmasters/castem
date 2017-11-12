@@ -5,7 +5,7 @@
   <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
     <div class="slider-content text-center">
-     <h2 class="slider-title">Virtual <span>House</span> Calls</h2>
+     <h2 class="slider-title">Virtual <span>Follow</span>-Ups</h2>
      <h4 class="slider-title">to <br> reduce cost and improve patient care</h4>
      <!--
      <div class="btn-container">
@@ -85,7 +85,7 @@ The patient can answer questions, upload pictures, chat. Integrated IOT devices 
        <div class="about-content">
         <h4>Reduced cost</h4>
         <p>
-          Reduce unnecessary re-admissions by allowing patients to have follow up care via virtual house calls. Incrementally deployable, with little IT infrastructure required.        </p>
+          Reduce unnecessary re-admissions by allowing patients to have follow up care via virtual follow-ups. Incrementally deployable, with little IT infrastructure required.        </p>
        </div>
       </div>
      </div>
