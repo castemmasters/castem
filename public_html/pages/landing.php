@@ -109,16 +109,16 @@ The patient can answer questions, upload pictures, chat. Integrated IOT devices 
       <div class="col-md-4">
          <ul class="scenario_list">
           <li>
-           The doctor/nurse creates your profile and sends it to you. Choose a one-time PIN for activation.
+           The doctor/nurse creates your profile and sends a link to you, for your virtual follow-up.
           </li>
           <li>
-           You don't even have to login. Your credentials are never used in any communication.
+           You don't even have to login. No identifiable credentials are ever used in any communication.
           </li>
           <li>
-           Communicate, answer polls/questionnaires, upload pictures, ask questions securely.
+           Communicate, answer questionnaires, upload pictures, chat, ask questions securely.
           </li>
           <li>
-           Integrated IOT devices allow your doctor to monitor as frequently as he deems necessary.
+           Integrated IOT devices allow your doctor to monitor you in real-time, as he deems necessary.
           </li>
          </ul>
       </div>
