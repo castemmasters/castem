@@ -150,39 +150,43 @@ The patient can answer questions, upload pictures, chat. Integrated IOT devices 
   </div>
   <!-- heading row end -->
 
-  <div class="row">
+  <div class="row" id="contactUsFormRow">
    <div class="col-md-12">
-    <form class="contact-inner">
+       <form class="contact-inner" id="contactUsForm" method="post" autocomplete="off">
      <div class="row">
       <div class="col-md-4">
        <div class="form-group">
         <label > Name</label>
-        <input type="text" class="form-control" placeholder="your name">
+        <input type="text" class="form-control" id="name" name="senderName" placeholder="Your Name" required>
        </div>
+          <div class="validationErrorMessageClass" style="color:red"></div>
       </div>
       <div class="col-md-4">
        <div class="form-group">
         <label > Email</label>
-        <input type="text" class="form-control" placeholder="your email">
+        <input type="text" class="form-control" id="email" name="replyToEmail" placeholder="Your Email" data-fv-emailaddress='true' data-fv-emailaddress-message='please enter valid email' required >
        </div>
+          <div class="validationErrorMessageClass" style="color:red"></div>
       </div>
       <div class="col-md-4">
        <div class="form-group">
         <label > Subject</label>
-        <input type="text" class="form-control" placeholder="subject">
+        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
        </div>
+          <div class="validationErrorMessageClass" style="color:red"></div>
       </div>
       <div class="col-md-12">
        <div class="form-group">
         <label > Message</label>
-        <textarea name="" id="" cols="30" rows="8" class="form-control" placeholder="message"></textarea>
+        <textarea id="message" name="description" cols="30" rows="8" class="form-control" placeholder="Message" required></textarea>
        </div>
+          <div class="validationErrorMessageClass" style="color:red"></div>
       </div>
      </div>
      <!-- row end -->
      <div class="row">
       <div class="col-md-12 text-center">
-       <button class="btn btn-default">
+       <button class="btn btn-default" id="contactSubmit" >
         Submit
        </button>
       </div>
@@ -190,6 +194,14 @@ The patient can answer questions, upload pictures, chat. Integrated IOT devices 
     </form>
    </div>
   </div><!-- row end -->
+  <div class="row" id="contactUsSuccessRow">
+    <span class="glyphicon glyphicon-ok icon-size" aria-hidden="true"></span>
+    <h1 id='contactUsSuccessDiv'></h1>
+  </div>
+  <div class="row" id="contactUsErrorRow">
+    <!-- <span class="glyphicon glyphicon-remove icon-size" aria-hidden="true"></span> -->
+    <h1 id='contactUsErrorDiv'></h1>
+  </div>
  </div><!-- container end -->
 </section>
 <!-- section Contact end -->
