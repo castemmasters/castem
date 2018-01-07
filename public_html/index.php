@@ -7,11 +7,11 @@
   <?php
 include ('includes/preamble.html');
   ?>
-  <title>MediCuris</title>
+  <title>CSRI</title>
 
   <?php
 include ('includes/postscript.html');
-  ?>  
+  ?>
  </head>
  <body data-spy="scroll" data-target=".navbar-fixed-top" >
 
@@ -24,7 +24,7 @@ include ('includes/navbar.php');
   <?php
 include ('pages/landing.php');
   ?>
-  
+
     <?php
 include ('includes/footer.php');
   ?>

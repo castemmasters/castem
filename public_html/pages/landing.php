@@ -5,8 +5,8 @@
   <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
     <div class="slider-content text-center">
-     <h2 class="slider-title">Stem <span>Cells</span>-To the Rescue</h2>
-     <h4 class="slider-title">to <br> reduce cost and improve patient care</h4>
+     <h2 class="slider-title">Stem <span>Cells</span></h2>
+     <h4 class="slider-title">To <br> The Rescue</h4>
      <!--
      <div class="btn-container">
      <button class="btn btn-default featured">

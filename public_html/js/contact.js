@@ -55,7 +55,7 @@ function attachBootstrapValidatorsToContactUsForm() {
     senderName: {
      trigger: 'keyup',
      validators: {
-          stringLength : { 
+          stringLength : {
             message : 'Please enter more than 1 characters ',
             min : 2,
         },
@@ -67,7 +67,7 @@ function attachBootstrapValidatorsToContactUsForm() {
      subject: {
      trigger: ' keyup',
      validators: {
-          stringLength : { 
+          stringLength : {
             message : 'Please enter more than 1 characters ',
             min : 2,
         },
@@ -79,7 +79,7 @@ function attachBootstrapValidatorsToContactUsForm() {
     description: {
      trigger: 'keyup',
      validators: {
-          stringLength : { 
+          stringLength : {
             message : 'Please enter value between 10 and 120 characters long',
             min : 10,
             max : 120
