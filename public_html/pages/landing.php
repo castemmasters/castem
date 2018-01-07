@@ -5,7 +5,7 @@
   <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
     <div class="slider-content text-center">
-     <h2 class="slider-title">Virtual <span>Follow</span>-Ups</h2>
+     <h2 class="slider-title">Stem <span>Cells</span>-To the Rescue</h2>
      <h4 class="slider-title">to <br> reduce cost and improve patient care</h4>
      <!--
      <div class="btn-container">
