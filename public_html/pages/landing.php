@@ -24,8 +24,65 @@
  <!-- container end -->
 </section>
 <!-- section slider end -->
+<!-- section highlights -->
+<section id="about">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-lg-12 wow fadeIn">
+                <h1>Reach anyone with a smartphone </h1>
+                <p>Millennials or otherwise, tech-savvy or not, all they need is a working smartphone </p>
+                <hr class="colored">
+            </div>
+        </div>
+        <div class="row text-center content-row">
+            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                <div class="about-content">
+                    <!-- <i class="fa fa-eye fa-4x"></i> -->
+                    <div class="feature_icon">
+                                <img src="img/no_app_icon.png" class="center-block img-responsive">
+                            </div>
+                    <h3>No appstore </h3>
+                    <p>50% people never download any apps. Reach them via text or SMS. All the benefits of deep mobile engagement without the burden of mobile apps.
+                       </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                <div class="about-content">
+                    <!-- <i class="fa fa-edit fa-4x"></i> -->
+                    <div class="feature_icon">
+                                <img src="img/features_icon.png" class="center-block img-responsive">
+                            </div>
+                    <h3>Full-featured</h3>
+                     Today's smartphone users expect a lot, and we are ready to impress them. Our library of features will get you started right away, just pick what you need. Don't see what you need? Just let us know.
+                    <p>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                <div class="about-content">
+                    <!-- <i class="fa fa-tablet fa-4x"></i> -->
+                    <div class="feature_icon">
+                                <img src="img/back_office_icon.png" class="center-block img-responsive">
+                            </div>
+                    <h3>Back-office app</h3>
+                    <p>Manage the features you have chosen like a pro. Our do-it-yourself iPad app is intuitive and easy to use. Be confident with the built-in preview.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
+                <div class="about-content">
+                    <!-- <i class="fa fa-heart fa-4x"></i> -->
+                    <div class="feature_icon">
+                      <img src="img/iot_icon.png" class="center-block img-responsive">
+                    </div>
+                    <h3>Hardware &amp; IOT</h3>
+                    <p>From simple printers and scanners to complex and secure IOT integration, we have you covered. Rely on us for a one-stop-shop. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section highlights end -->
 
- 
 <!-- section Contact start -->
 <section id="contact" >
  <div class="bg-overlay pattern"></div>
