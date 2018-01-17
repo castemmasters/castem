@@ -28,7 +28,7 @@
 18.	Subscription
 19.	Footer
 20.	Overlay
-21.Back To Top Button 
+21.Back To Top Button
 
 
 */
@@ -316,7 +316,7 @@ h5{
 	background-color: #28292E !important;
 	padding: 10px !important;
 }
-.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 	background-color: transparent;
 }
@@ -350,7 +350,7 @@ h5{
 }
 
 
-/*SLIDER HEADER 
+/*SLIDER HEADER
 ============================================================*/
 #slider-part{
 	position: relative;
@@ -522,6 +522,20 @@ h5{
 	line-height: 38px;
 }
 
+.highlights{
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFF;
+	margin: 20px 0px 15px;
+	padding-bottom: 15px;
+}
+.highlights p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFF;
+	margin: 20px 0px 15px;
+	padding-bottom: 15px;
+}
 /*PROCESS section
 =====================================================*/
 #process{
@@ -1157,7 +1171,7 @@ h5{
 	font-weight:500;
 	color: #000;
 }
- 
+
 .sec-sub-title span{
 	color: #00AEFF;
 }
@@ -1257,7 +1271,7 @@ h5{
 }
 
 
-/* Back To Top Button 
+/* Back To Top Button
 ======================================*/
 
 #back-top{
@@ -1266,7 +1280,7 @@ h5{
     bottom:35px;
     z-index:9999;
 }
-    
+
 #back-top a{
     opacity:0.5;
     -webkit-transition: all 0.3s;
@@ -1276,8 +1290,8 @@ h5{
 #back-top a i{
 	padding-top: 8px;
 	text-align: center;
-} 
-   
+}
+
 #back-top .btn-primary{
     background: #00AEFF;
     border-color: #00AEFF;
@@ -1287,7 +1301,7 @@ h5{
     height: 36px;
     border-radius: 100%;
 }
-  
+
 #back-top a:hover{
     background: #00AEFF;
     opacity: 1;

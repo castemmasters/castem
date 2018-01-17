@@ -27,6 +27,7 @@
 <!-- section highlights -->
 <section id="about">
     <div class="container-fluid">
+        <!--
         <div class="row text-center">
             <div class="col-lg-12 wow fadeIn">
                 <h1>Reach anyone with a smartphone </h1>
@@ -34,50 +35,41 @@
                 <hr class="colored">
             </div>
         </div>
+      -->
         <div class="row text-center content-row">
-            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
-                <div class="about-content">
+            <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                <div class="highlights">
                     <!-- <i class="fa fa-eye fa-4x"></i> -->
                     <div class="feature_icon">
                                 <img src="img/no_app_icon.png" class="center-block img-responsive">
                             </div>
-                    <h3>No appstore </h3>
-                    <p>50% people never download any apps. Reach them via text or SMS. All the benefits of deep mobile engagement without the burden of mobile apps.
+                    <h3>What hurts </h3>
+                    <p> Tell us more about what ailes you. We will guide you through our question-answer format to help you decide if you want to take the next step to be free from what hurts.
                        </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
-                <div class="about-content">
+            <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                <div class="highlights">
                     <!-- <i class="fa fa-edit fa-4x"></i> -->
                     <div class="feature_icon">
                                 <img src="img/features_icon.png" class="center-block img-responsive">
                             </div>
-                    <h3>Full-featured</h3>
-                     Today's smartphone users expect a lot, and we are ready to impress them. Our library of features will get you started right away, just pick what you need. Don't see what you need? Just let us know.
-                    <p>
-                    </p>
+                    <h3>Options</h3>
+                    <p> Science of medicine is ever changing and new treatment technologies are being developed which target ever more complex and hard to treat conditions. Discover the latest and greatest right here.
+                     </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
-                <div class="about-content">
+            <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                <div class="highlights">
                     <!-- <i class="fa fa-tablet fa-4x"></i> -->
                     <div class="feature_icon">
                                 <img src="img/back_office_icon.png" class="center-block img-responsive">
                             </div>
-                    <h3>Back-office app</h3>
-                    <p>Manage the features you have chosen like a pro. Our do-it-yourself iPad app is intuitive and easy to use. Be confident with the built-in preview.</p>
+                    <h3>I am ready</h3>
+                    <p>Are you ready to get started? If so, just fill out the details and one of our experts will contact you. Don't worry if you still have questions, we will guide you all the way.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
-                <div class="about-content">
-                    <!-- <i class="fa fa-heart fa-4x"></i> -->
-                    <div class="feature_icon">
-                      <img src="img/iot_icon.png" class="center-block img-responsive">
-                    </div>
-                    <h3>Hardware &amp; IOT</h3>
-                    <p>From simple printers and scanners to complex and secure IOT integration, we have you covered. Rely on us for a one-stop-shop. </p>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
