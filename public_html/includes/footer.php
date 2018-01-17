@@ -29,7 +29,7 @@
                     <div class="menu-footer1-container">
                         <ul class="footermenu">
                             <li>
-                                <a>medicuris.com</a>
+                                <a>CSRI</a>
                             </li>
 
                             <li>
@@ -41,7 +41,7 @@
             </div>
 			<div class="col-sm-5">
                 <div class="copyright">
-				    <a href="/">&#0169 &nbsp;2018. All rights reserved.&nbsp; | medicuris.com</a>
+				    <a href="/">&#0169 &nbsp;2018. All rights reserved.&nbsp; | CSRI</a>
                 </div>
 			</div>
 		</div>
